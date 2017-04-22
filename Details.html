@@ -47,7 +47,7 @@
 
 var id = window.location.hash.split('#');
 var i = id[1];
-alert(i);
+// alert(i);
 
 // document.getElementById("imggg");
 var newsrc= 'http://image.tmdb.org/t/p/w185/';
@@ -55,7 +55,7 @@ newsrc+= json.results[i].backdrop_path;
 var newtitle = json.results[i].original_title;
 var overview = json.results[i].overview;
 
-$(".container").append("<div class = 'col-md-4'><img src='"+ newsrc +"'><h3>"+newtitle+"</h3></div><div class='col-md-8'>"+ overview +"</div>");
+$(".container").append("<div class = 'col-md-4'><img src='"+ newsrc +"'></div><div class='col-md-8'><h3>"+newtitle+"</h3>"+ overview +"</div>");
 // $(".container").append("<div class = '");
 // $(".container").append("");
 // // $(".container").append("");
