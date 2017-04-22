@@ -1,0 +1,7 @@
+body{font-family: 'PT Sans Narrow', sans-serif;color:#747704;font-weight: 400;}
+img,embed,object,video{max-width: 100%;}
+nav,a,button{min-width: 48px;min-height: 48px;}
+.title-super{font-size: 60px;}
+.title-logo{margin-top: 10px;}
+.needCenter{margin:0 auto;}
+#headimg{height: 200px;width:200px;}
